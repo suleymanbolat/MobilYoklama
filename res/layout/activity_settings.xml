@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suleymanaybuke.mobilyoklama.activity.SettingsActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+	 <EditText
+        android:id="@+id/edittext_database_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/database_name"
+        android:layout_alignBottom="@+id/database_name"
+        android:layout_toRightOf="@+id/database_url"
+        android:ems="10"
+        android:inputType="textPersonName" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/database_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/database_name" />
+
+    <TextView
+        android:id="@+id/database_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edittext_database_name"
+        android:layout_marginTop="17dp"
+        android:text="@string/database_url" />
+
+    <EditText
+        android:id="@+id/edittext_user_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_password"
+        android:layout_alignBottom="@+id/user_password"
+        android:layout_alignRight="@+id/edittext_user_name"
+        android:layout_toRightOf="@+id/database_url"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edittext_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_name"
+        android:layout_alignBottom="@+id/user_name"
+        android:layout_toRightOf="@+id/database_url"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/database_url"
+        android:layout_below="@+id/edittext_database_url"
+        android:layout_marginTop="16dp"
+        android:text="@string/database_user_name" />
+
+    <TextView
+        android:id="@+id/user_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_below="@+id/edittext_user_name"
+        android:layout_marginTop="15dp"
+        android:text="@string/database_user_pass" />
+
+    <EditText
+        android:id="@+id/edittext_database_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edittext_user_name"
+        android:layout_below="@+id/edittext_database_name"
+        android:ems="10"
+        android:inputType="textUri" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edittext_user_password"
+        android:layout_below="@+id/edittext_user_password"
+        android:layout_marginTop="39dp"
+        android:text="@string/database_settings_save" />
+</RelativeLayout>
+</FrameLayout>
+

@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suleymanaybuke.mobilyoklama.activity.LoadingActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="107dp"
+            android:layout_y="20dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="122dp"
+            android:text="@string/info1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_x="21dp"
+            android:layout_y="168dp"
+            android:text="@string/info2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>

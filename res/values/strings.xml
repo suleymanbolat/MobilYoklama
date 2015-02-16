@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobil Yoklama</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_choose_type">ChooseTypeActivity</string>
+    <string name="title_activity_chooser">ChooserActivity</string>
+    <string name="title_activity_object_detail">ObjectDetail</string>
+
+    <!-- veri tabanı ayar -->
+    <string name="title_activity_settings">Database Settings</string>
+    <string name="database_name">Veri Tabanı Adı :</string>
+    <string name="database_url">Veri Tabanı Adresi :</string>
+    <string name="database_user_name">Kullanıcı Adı :</string>
+    <string name="database_user_pass">Kullanıcı Şifresi :</string>
+    <string name="database_settings_save">Kaydet</string>
+    <string name="confirm_box_alert">Tüm ayarlar kaydedilecek emin misiniz?</string>
+    <string name="confirm_box_yes">Evet</string>
+    <string name="confirm_box_no">Hayır</string>
+
+    <!-- object detail -->
+    <string name="ogrenci_no">Öğrenci No. :</string>
+    <string name="tc_no">T.C. Kimlik No. :</string>
+    <string name="adi_soyadi">Adı Soyadı :</string>
+    <string name="sinif">Sınıfı :</string>
+    <string name="fakulte">Fakülte :</string>
+    <string name="bolum">Bölüm :</string>
+    <string name="aktif_donem">Aktif Dönem :</string>
+    <string name="resim_aciklama">Ogrenci Fotografi</string>
+    <string name="bos"> Yükleniyor..</string>
+    <string name="sinaviBitir"> Sınavı Bitir !</string>
+    <string name="sinaviBitirUyari"> Sınav sonlandırılacak ve tüm öğrenci verileri silinecektir. Bu işlem geri alınamaz. Devam etmek istediğinize emin misiniz?</string>
+
+    <!-- chooser activity -->
+    <string name="qrcode"> QrCode Scan </string>
+    <string name="ocr"> OCR Scan </string>
+    <string name="title_activity_barcod">BarcodActivity</string>
+    <string name="title_activity_barcode">BarcodeActivity</string>
+
+    <!-- loading activity -->
+    <string name="title_activity_loading">Bilgiler Yükleniyor</string>
+    <string name="info1">    Bilgiler sunucudan alınırken lütfen bekleyiniz.</string>
+    <string name="info2">    Bu işlem biraz zaman alabilir.</string>
+    <string name="title_activity_ocr">Optical Character Recognition</string>
+    <string name="hello_world">Hello world!</string>
+
+<!--     ocr activity	 -->
+
+<string name="takePhoto"> Görüntüyü İşle !</string>
+    
+
+<string name="button_text">OCR!</string>
+    <string name="text_hint">OCRed Text will appear here</string>
+
+</resources>

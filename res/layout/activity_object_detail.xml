@@ -1,0 +1,156 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suleymanaybuke.mobilyoklama.activity.ObjectDetail"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:contentDescription="@string/resim_aciklama"
+            android:src="@drawable/abc_ab_stacked_solid_light_holo" />
+
+        <TextView
+            android:id="@+id/txtviewOgrenciNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="50dp"
+            android:text="@string/ogrenci_no" />
+
+        <TextView
+            android:id="@+id/txtviewTcNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewOgrenciNo"
+            android:layout_marginTop="22dp"
+            android:text="@string/tc_no" />
+
+        <TextView
+            android:id="@+id/txtviewAdiSoyadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewTcNo"
+            android:layout_marginTop="22dp"
+            android:text="@string/adi_soyadi" />
+
+        <TextView
+            android:id="@+id/txtviewSinif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewAdiSoyadi"
+            android:layout_marginTop="22dp"
+            android:text="@string/sinif" />
+
+        <TextView
+            android:id="@+id/txtviewFakulte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewSinif"
+            android:layout_marginTop="22dp"
+            android:text="@string/fakulte" />
+
+        <TextView
+            android:id="@+id/txtviewBolum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewFakulte"
+            android:layout_marginTop="22dp"
+            android:text="@string/bolum" />
+
+        <TextView
+            android:id="@+id/txtviewAktifDonem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtviewBolum"
+            android:layout_marginTop="22dp"
+            android:text="@string/aktif_donem" />
+
+        <TextView
+            android:id="@+id/adiSoyadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtviewAdiSoyadi"
+            android:layout_alignRight="@+id/tcNo"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/sinif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtviewSinif"
+            android:layout_alignLeft="@+id/adiSoyadi"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/fakulte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtviewFakulte"
+            android:layout_alignLeft="@+id/sinif"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/bolum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtviewBolum"
+            android:layout_alignLeft="@+id/fakulte"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/aktifDonem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtviewAktifDonem"
+            android:layout_alignBottom="@+id/txtviewAktifDonem"
+            android:layout_alignLeft="@+id/bolum"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/tcNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtviewAdiSoyadi"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bos" />
+
+        <TextView
+            android:id="@+id/ogrenciNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtviewTcNo"
+            android:layout_alignLeft="@+id/tcNo"
+            android:text="@string/bos" />
+
+        <Button
+            android:id="@+id/sinaviBitir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/sinaviBitir" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
